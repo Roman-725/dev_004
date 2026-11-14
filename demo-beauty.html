@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студия маникюра Nail Room — запись онлайн, Тюмень</title>
+    <meta name="description" content="Маникюр, педикюр, наращивание и оформление бровей в Тюмени. Стерильные инструменты, запись в один клик.">
+    <link rel="stylesheet" href="demo-style.css">
+    <style>
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; }
+        .shot {
+            aspect-ratio: 1;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+            padding: 1rem;
+            background: linear-gradient(135deg, #fbcfe8 0%, #db2777 100%);
+        }
+        .shot:nth-child(2) { background: linear-gradient(135deg, #fde68a 0%, #f59e0b 100%); }
+        .shot:nth-child(3) { background: linear-gradient(135deg, #c7d2fe 0%, #6366f1 100%); }
+        .shot:nth-child(4) { background: linear-gradient(135deg, #a7f3d0 0%, #059669 100%); }
+        .btn-row { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+    </style>
+</head>
+<body class="beauty">
+    <div class="demo-note">Демо-сайт от <a href="https://roman-725.github.io/dev_003/">Digital Solutions Studio</a> — пример структуры для бьюти-студии</div>
+
+    <header>
+        <div class="top">
+            <div class="brand">Nail Room<small>студия маникюра, Тюмень</small></div>
+            <a class="top-phone" href="tel:+79000000000">+7 900 000-00-00</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-inner">
+            <h1>Маникюр, после которого руки хочется показывать</h1>
+            <p>Аккуратно, стерильно и без спешки. Один мастер — один клиент, никакой очереди в коридоре.</p>
+            <div class="btn-row">
+                <a class="btn" href="https://wa.me/79000000000" target="_blank" rel="noopener">Записаться в WhatsApp</a>
+                <a class="btn accent" href="https://t.me/" target="_blank" rel="noopener">Написать в Telegram</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrap">
+            <h2>Услуги и цены</h2>
+            <p class="lead">Длительность указана с учётом снятия и дизайна.</p>
+            <div class="cards">
+                <div class="card">
+                    <h3>Маникюр</h3>
+                    <div class="price-row"><span>Аппаратный, без покрытия</span><b>1 400 ₽</b></div>
+                    <div class="price-row"><span>С гель-лаком</span><b>2 200 ₽</b></div>
+                    <div class="price-row"><span>Дизайн</span><b>от 200 ₽</b></div>
+                </div>
+                <div class="card">
+                    <h3>Педикюр</h3>
+                    <div class="price-row"><span>Аппаратный</span><b>2 000 ₽</b></div>
+                    <div class="price-row"><span>С покрытием</span><b>2 800 ₽</b></div>
+                </div>
+                <div class="card">
+                    <h3>Брови и ресницы</h3>
+                    <div class="price-row"><span>Коррекция и окрашивание</span><b>1 200 ₽</b></div>
+                    <div class="price-row"><span>Ламинирование</span><b>2 300 ₽</b></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="alt">
+        <div class="wrap">
+            <h2>Работы</h2>
+            <p class="lead">Примеры — здесь будут ваши фото с телефона, без студийной обработки.</p>
+            <div class="gallery">
+                <div class="shot">Нюд<br>с блёстками</div>
+                <div class="shot">Френч</div>
+                <div class="shot">Синий<br>градиент</div>
+                <div class="shot">Молочный<br>с дизайном</div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrap">
+            <h2>Почему к нам возвращаются</h2>
+            <div class="cards">
+                <div class="card"><h3>Стерильность</h3><p>Инструменты — сухожаровой шкаф и крафт-пакеты. Всё вскрываем при вас.</p></div>
+                <div class="card"><h3>Без спешки</h3><p>Запись с запасом времени, чтобы мастер никуда не торопился и не портил настроение.</p></div>
+                <div class="card"><h3>Рядом с домом</h3><p>5 минут от остановки, бесплатная парковка у входа.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="band">
+        <h2>Свободные окна на этой неделе</h2>
+        <p>Напишите — подберём удобное время. Отвечаем до 21:00.</p>
+        <a class="btn" href="https://wa.me/79000000000" target="_blank" rel="noopener">Записаться</a>
+    </section>
+
+    <footer>
+        <p>Nail Room · Тюмень · <a href="tel:+79000000000">+7 900 000-00-00</a></p>
+        <p>Демонстрационный сайт. Контакты и цены — пример.</p>
+    </footer>
+</body>
+</html>
